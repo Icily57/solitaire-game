@@ -1,11 +1,14 @@
+import React from "react";
+import "./index.css";
 import GameBoard from "./gameboard";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center items-center">
-      <GameBoard />
+    <div className="flex items-center justify-center min-h-screen bg-blue-500 text-white text-3xl font-bold">
+      Hello, Tailwind CSS!
+      <GameBoard/>
     </div>
   );
-}
+};
 
 export default App;
